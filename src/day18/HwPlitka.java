@@ -56,9 +56,9 @@ public class HwPlitka {
         double roomLongSide = dlinaKomnati / shirinaP; // 35 - количество плитки по длинной стороне
         int plitkiLongSide = (int) Math.floor(roomLongSide); // 35 - Количество целых плиток long side
         int longSideAllPlitki = (int) Math.ceil(roomLongSide); // 35 - Общее количество плиток long side wall
-        int totalCeliePlitki = plitkiLongSide * plitkiShortSide; // общеe количество целых плитки = Math.floor(плитки длина комнаты) * Math.floor (плитки ширина комнаты)
-        int totalPlitkiAmount = longSideAllPlitki * shortSideAllPlitki; // общеe количество всех потраченных плиток = Math.ceil(длина комнаты) * Math.ceil(ширина комнаты)
-        int totalcuttedPlitki = totalPlitkiAmount - totalCeliePlitki; // Количество отпилиных /порезанных плиток = Все плитки - все целые плитки;
+        int totalCeliePlitki = plitkiLongSide * plitkiShortSide; // 560 - общеe количество целых плитки = Math.floor(плитки длина комнаты) * Math.floor (плитки ширина комнаты)
+        int totalPlitkiAmount = longSideAllPlitki * shortSideAllPlitki; // 595 - общеe количество всех потраченных плиток = Math.ceil(длина комнаты) * Math.ceil(ширина комнаты)
+        int totalcuttedPlitki = totalPlitkiAmount - totalCeliePlitki; // 35 - Количество отпилиных /порезанных плиток = Все плитки - все целые плитки;
         double materialPrice = totalPlitkiAmount * plitkaPrice;
 
         return "В первом случае надо " + totalPlitkiAmount + " плиток, из них " + totalCeliePlitki
