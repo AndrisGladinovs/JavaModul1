@@ -1,6 +1,4 @@
-package day7;
-
-import jdk.internal.dynalink.support.AutoDiscovery;
+package day07;
 
 public class Logic01 {
 

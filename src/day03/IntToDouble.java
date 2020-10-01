@@ -1,4 +1,4 @@
-package day3;
+package day03;
 
 public class IntToDouble {
     public static void main(String[] args) {

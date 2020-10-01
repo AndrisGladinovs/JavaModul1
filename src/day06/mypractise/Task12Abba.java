@@ -1,4 +1,4 @@
-package day6.mypractise;
+package day06.mypractise;
 
 public class Task12Abba {
     public static void main(String[] args) {

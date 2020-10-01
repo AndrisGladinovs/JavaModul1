@@ -1,4 +1,4 @@
-package day9.MyTraining;
+package day09.MyTraining;
 
 public class SalaryForWorker {
     public static void main(String[] args) {

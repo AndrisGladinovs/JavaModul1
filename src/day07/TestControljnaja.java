@@ -1,4 +1,4 @@
-package day7;
+package day07;
 
 public class TestControljnaja {
     public static void main(String[] args) {

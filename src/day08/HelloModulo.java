@@ -1,4 +1,4 @@
-package day8;
+package day08;
 
 public class HelloModulo {
     public static void main(String[] args) {

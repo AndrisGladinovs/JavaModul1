@@ -1,4 +1,4 @@
-package day9.homework;
+package day09.homework;
 
 public class ThreeNumbers {
     public static void main(String[] args) {

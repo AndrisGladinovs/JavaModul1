@@ -1,4 +1,4 @@
-package day6.mypractise;
+package day06.mypractise;
 
 public class Task3FirstPartOnly {
 

@@ -1,4 +1,4 @@
-package day5.homework;
+package day05.homework;
 
 public class NumberPiAndFunctions {
     //Задание. Взять из библиотеки Java число PI и:

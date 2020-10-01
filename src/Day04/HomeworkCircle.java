@@ -1,4 +1,4 @@
-package Day4;
+package Day04;
 
 public class HomeworkCircle {
     public static void main(String[] args) {

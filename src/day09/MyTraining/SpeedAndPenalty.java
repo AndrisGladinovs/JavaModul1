@@ -1,4 +1,4 @@
-package day9.MyTraining;
+package day09.MyTraining;
 
 public class SpeedAndPenalty {
     public static void main(String[] args) {

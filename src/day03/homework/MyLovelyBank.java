@@ -1,4 +1,4 @@
-package day3.homework;
+package day03.homework;
 
 public class MyLovelyBank {
     public static void main(String[] args) {

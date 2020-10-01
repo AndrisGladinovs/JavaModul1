@@ -1,4 +1,4 @@
-package day5.myHomePractice;
+package day05.myHomePractice;
 
 public class Eduard {
     public static void main(String[] args){

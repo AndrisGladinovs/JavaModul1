@@ -1,4 +1,4 @@
-package day5.homework;
+package day05.homework;
 
 public class Krug {
     public static void main(String[] args) {

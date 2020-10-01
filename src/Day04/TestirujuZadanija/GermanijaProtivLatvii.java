@@ -1,4 +1,4 @@
-package Day4.TestirujuZadanija;
+package Day04.TestirujuZadanija;
 
 public class GermanijaProtivLatvii {
     //1. Задача узнать во сколько раз територия Германии больше Латвии.

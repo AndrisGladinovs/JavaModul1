@@ -1,4 +1,4 @@
-package Homework2;
+package day02;
 
 public class Rezept {
     public static void main(String[] args) {
