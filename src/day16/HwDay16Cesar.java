@@ -7,16 +7,16 @@ public class HwDay16Cesar {
 
     private static void enigmaCaesar(String text) {
         String output = "";
+        text = text.toLowerCase();
         int change = 3;
         for (int i = 0; i < text.length(); i++) {
             char myChar = text.charAt(i); // from String to char
-            System.out.println(0 + myChar); // get each char code number
-            int myChartInt = myChar; // char code to int code
-            System.out.println(myChartInt);
+
+            int myChartInt = 0 + myChar; // char to int code
+
             int mySecretCharInt = myChartInt + change; // +3 for old code
-            System.out.print(" " + mySecretCharInt);
-            String newText = String.valueOf(mySecretCharInt); // new int +3 code back to String
-            System.out.println("Новое предложение " + newText);
+            char secretChar = (char) mySecretCharInt; //
+            System.out.print("" + secretChar);
 
         }
     }
