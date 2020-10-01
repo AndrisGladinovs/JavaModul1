@@ -6,9 +6,13 @@ public class Ternar {
         System.out.println(getMeMax(4, 16)); //→16
         System.out.println(getMeMax(20, 100)); //→100
 
+        System.out.println("-----------------");
+
         System.out.println(getMeMin(15, 45)); //→ 15
         System.out.println(getMeMin(44, 16)); //→ 16
         System.out.println(getMeMin(200, 100)); //→ 100
+
+        System.out.println("-----------------");
 
         System.out.println(myFirstCompareTo("Berlin", "Moscow")); //→ "Berlin"
         System.out.println(myFirstCompareTo("Minsk", "Moscow")); //→ "Minsk"
@@ -16,30 +20,28 @@ public class Ternar {
         System.out.println(myFirstCompareTo("Могилёв", "Потсдам")); //→ "Могилёв"
     }
 
-    private static String myFirstCompareTo(String str1, String str2) {
-        String output = "";
-        if (str1.charAt(0) < str2. charAt(0)) {
-            return output + str1 ;
-        } else if (str1.charAt(0) > str2. charAt(0)) {
+    private static String myFirstCompareTo(String city1, String city2) {
+        return city1.compareTo(city2) < 0 ? city1 : city2;
+
+        /*String output = "";
+        if (str1.charAt(0) < str2.charAt(0)) {
+            return output + str1;
+        } else if (str1.charAt(0) > str2.charAt(0)) {
             return output + str2;
         } else if (str1.charAt(1) < str2.charAt(1)) {
             return output + str1;
         } else {
-            return output;
+            return output; */
         }
-    }
+
 
     private static int getMeMin(int a, int b) {
-        int result = 0;
-        result = (a < b) ? a : b;
-        result = (a > b) ? b : a;
-        return  result;
+        return (a < b) ? a : b;
+
     }
 
     private static int getMeMax(int a, int b) {
-        int result = 0;
-        result = (a > b) ? a : b;
-        result = (a < b) ? b : a;
-        return  result;
+        return (a > b) ? a : b;
+
     }
 }
