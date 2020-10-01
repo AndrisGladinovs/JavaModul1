@@ -22,7 +22,7 @@ public class HwPlitka {
     }
 
     private static String getWorkerPrice(double dlinaKomnati, double shirinaKomnati, int hourRate) {
-        double workerPrice = dlinaKomnati * shirinaKomnati * (hourRate * 19 / 100);
+        double workerPrice = dlinaKomnati * shirinaKomnati * hourRate;
         return "Услуги мастера будут стоить " + workerPrice + " €";
 
     }
