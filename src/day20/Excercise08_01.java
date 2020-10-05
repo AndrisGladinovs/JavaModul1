@@ -7,39 +7,48 @@ public class Excercise08_01 {
         int min;
         int middle;
         int sum;
-        calculateMax(art);
-        calculateMin(art);
-        calculateSum(art);
+        System.out.println(calculateMax(art) + " max number");
+        System.out.println(calculateMin(art) + " min number");
+        System.out.println(calculateSum(art) + " sum of array variables");
+        System.out.println(calculateMiddle(art) + " average number of array");
     }
 
-    private static void calculateSum(int[] input) {
+    private static double calculateMiddle(int[] arr) {
+        double average = 0.0;
+        double sum = 0.0;
+        for (int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i] ;
+            average = sum / arr.length;
+        }
+        return average;
+    }
+
+    private static int calculateSum(int[] input) {
         int sum = 0;
         for (int i = 0; i < input.length; i++) {
-            sum = sum + input [i];
+            sum = sum + input[i];
         }
-        System.out.println("The sum is: ");
+        return sum;
     }
 
-    private static void calculateMin(int[] input) {
-        int min = 0;
+    private static int calculateMin(int[] input) {
+        int min = input[0];
         for (int i = 0; i < input.length; i++) {
-            if (input[i] < input[i + 1]) {
-                input[i] = min;
-            }
-            System.out.println("Min number is: " + min);
+            min = Math.min(min, input[i]);
         }
+        return min;
     }
 
-    private static void calculateMax(int[] input) {
-        int max = 0;
+    private static int calculateMax(int[] input) {
+        int max = input[0];
         for (int i = 0; i < input.length; i++) {
-            if (input[i] > input[i + 1]) {
-                input[i] = max;
-            }
-            System.out.print("Max number is: " + max);
-
+            max = Math.max(max, input[i]);
         }
+        return max;
     }
 }
+
+
+
 
 
