@@ -21,9 +21,9 @@ public class CharArrayTest {
             } else {
                 System.out.print("" + input[i]);
             }
-            System.out.print(ANSI_YELLOW_BACKGROUND + input[input.length - 1] + ANSI_RESET);
-            System.out.println(" ]");
         }
+        System.out.print(ANSI_YELLOW_BACKGROUND + input[input.length - 1] + ANSI_RESET);
+        System.out.println(" ]");
     }
 }
 

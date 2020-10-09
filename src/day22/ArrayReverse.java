@@ -7,7 +7,7 @@ public class ArrayReverse {
         int[] arr3 = new int[]{10, 20, 30, 40, 50};
         FillAndPrint.myPrintIntArray(arrayReverse(arr1));
         FillAndPrint.myPrintIntArray(arrayReverse(arr2));
-        arrayReverse(arr3);
+        FillAndPrint.myPrintIntArray(arrayReverse(arr3));
     }
 
     private static int[] arrayReverse(int[] input) {
