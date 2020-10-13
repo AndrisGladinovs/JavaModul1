@@ -13,8 +13,8 @@ return true if it does not contain a 2 or 3.
         int [] a3 = new int[]{3, 5};
         System.out.println(a3);
 
-        calculationsArray([4, 5]); →true
-        calculationsArray([4, 2]); →false
-        calculationsArray([3, 5]); →false
+        //calculationsArray([4, 5]); →true
+        //calculationsArray([4, 2]); →false
+        //calculationsArray([3, 5]); →false
     }
 }
