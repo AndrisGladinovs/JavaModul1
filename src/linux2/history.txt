@@ -1,0 +1,33 @@
+   0 mkdir /tmp/andris
+   1 touch /tmp/andris/hw2.txt
+   2 date >> hw2.txt
+   3 cat hw2.txt
+   4 df -h
+   5 df -h >> hw2.txt
+   6 cat hw2.txt
+   7 history
+   8 history | tail -5
+   9 history | tail -5 >> hw2.txt
+  10 cat hw2.txt
+  11 ps -ef
+  12 cat /proc/cpuinfo
+  13 cat /proc/cpuinfo | grep vendor
+  14 /proc/cpuinfo | grep vendor >> hw2.txt
+  15 cat /proc/cpuinfo | grep vendor >> /tmp/andris/hw2.txt
+  16 cat hw2.txt
+  17 vi hw2.txt
+  18 cat /proc/cpuinfo
+  19 cat /proc/cpuinfo | grep vendor
+  20 cat /proc/cpuinfo | grep vendor >> hw2.txt
+  21 cat hw2.txt
+  22 vi hw2.txt
+  23 cat hw2.txt
+  24 ps -ef
+  25 ps -ef | tail +1
+  26 ps -ef
+  27 ps -ef | wc -l
+  28 ps -ef | wc -l >> hw2.txt
+  29 cat hw2.txt
+  30 export_file hw2.txt
+  31 history
+  32 history >> /tmp/andris/history.txt
