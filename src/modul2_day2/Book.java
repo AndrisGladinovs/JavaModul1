@@ -17,7 +17,7 @@ public class Book {
         System.out.println("Book name: " + name);
         System.out.println("Published year: " + year);
     }
-    class AllBooks {
+    static class AllBooks {
         public static void main(String[] args) {
             Book number1 = new Book("Leo Tolstoy", "War and Peace", 1865);
             number1.displayInfo();
