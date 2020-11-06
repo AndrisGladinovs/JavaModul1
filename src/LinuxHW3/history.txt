@@ -1,0 +1,16 @@
+   0 cd /tmp
+   1 touch myfirstbashscript.sh
+   2 ls -la /tmp
+   3 vi myfirstbashscript.sh
+   4 /tmp/script.sh
+   5 /tmp/myfirstbashscript.sh
+   6 chmod 700 /tmp/myfirstbashscript.sh
+   7 /tmp/myfirstbashscript.sh
+   8 vi myfirstbashscript.sh
+   9 /tmp/myfirstbashscript.sh
+  10 ls -la /etc/passwd
+  11 vi myfirstbashscript.sh
+  12 /tmp/myfirstbashscript.sh
+  13 export_file /tmp/myfirstbashscript.sh
+  14 history
+  15 history >> /tmp/history.txt
